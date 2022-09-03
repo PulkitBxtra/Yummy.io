@@ -1,0 +1,146 @@
+/* -----------------------------------------------------------------------------------------------------
+---------------------------------------------Universal--------------------------------------------------
+------------------------------------------------------------------------------------------------------ */
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    /* background-color: rgb(255, 183, 0);
+    background-image: url(Elements/blurry-gradient-haikei.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    background: rgb(245,193,0);
+    background: radial-gradient(circle, rgba(245,193,0,1) 0%, rgba(241,129,0,1) 100%);
+    
+}
+
+/* ------------------------------------------------------------------------------------------------------
+--------------------------------------------------navbar---------------------------------------------
+------------------------------------------------------------------------------------------------------ */
+
+#navbar{
+    background-color: white;
+    height:10vh;
+    box-shadow:0vh 0vh 5vh 0vh rgba(0,0,0,0.2);
+}
+
+
+#navhead ul{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    list-style-type:none;
+    margin-left:40vw;
+}
+
+#navhead ul li{
+    margin-left:5vw;
+    margin-right:1vw;
+    margin-top:3vh;
+}
+
+#navhead ul li p{
+    color:black;
+    font-family: 'poppins',sans-serif;
+    font-size:3vh;
+    
+}
+
+#navhead ul li:hover p{
+    color:rgb(255, 183, 0);
+}
+
+#navdata{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+#yummy img{
+    height:10vh;
+    margin-left:2vw;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------
+--------------------------------------------------stuff---------------------------------------------
+------------------------------------------------------------------------------------------------------ */
+
+#stuff{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+#smasher img{
+    width:50vw;
+    margin-top:5vh;
+    margin-right:5vw;
+    /* box-shadow: 0 0 2vh 0 black; */
+}
+
+#powerups{
+    height:60vh;
+    width:50vw;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+
+#text1 p{
+    color:white;
+    font-family: 'DynaPuff', cursive;
+    text-align: center;
+    font-size:5vh;
+    /* margin-top:5vh; */
+    padding-top:2vh;
+}
+
+
+#text2 p{
+    color:white;
+    font-family: 'DynaPuff',cursive;
+    font-weight: 100;
+    font-size:3vh;
+    padding-top:10vh;
+    margin-left:2vw;
+
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------
+--------------------------------------------------cookie---------------------------------------------
+------------------------------------------------------------------------------------------------------ */
+
+#cookiediv{
+    display: flex;
+    flex-direction:column;
+}
+
+#counter p{
+    color:white;
+    font-family: 'DynaPuff', cursive;
+    margin-left:15vw;
+    font-size: 2vw;
+}
+
+#count{
+    padding-left:3vw;
+} 
+
+
+#cookie img{
+    margin-left:5vw;
+    margin-top:5vh;
+    height:60vh;
+}
+
+#cookie img:active{
+    transform: scale(0.95);
+}
